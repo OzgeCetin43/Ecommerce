@@ -1,0 +1,72 @@
+.main-footer {
+  padding: 2rem !important;
+  background-color: #111827 !important;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-title-text,
+.footer-address-text,
+.footer-email-text,
+.footer-help-text,
+.footer-newsletter-description-text {
+  color: #fff !important;
+}
+
+.footer-title-text {
+  text-decoration: underline;
+}
+
+.footer-phone-text {
+  font-size: 1.5rem;
+  color: #bef264;
+}
+
+.footer-help-container {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.footer-help-container svg {
+  font-size: 3rem;
+  color: #bef264;
+}
+
+.footer-help-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col a {
+  color: #ffffff75;
+}
+
+.footer-newsletter-input {
+  border: 1px solid #11182710;
+}
+
+.footer-newsletter-input:focus,
+.footer-newsletter-input:hover {
+  box-shadow: none;
+  border: 1px solid #11182750;
+}
+
+.footer-newsletter-button {
+  background-color: #bef264 !important;
+  width: 25%;
+  font-weight: bold;
+  border: none;
+  color: #212121 !important;
+}
+
+.footer-newsletter-checkbox {
+  color: #fff;
+  font-size: 0.85rem;
+}

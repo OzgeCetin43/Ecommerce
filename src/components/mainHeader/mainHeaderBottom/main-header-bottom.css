@@ -1,0 +1,109 @@
+.main-header-bottom-container {
+  padding: 0.5rem 4rem 0.25rem;
+  border-bottom: 1px solid #f1f1f1;
+  background-color: #fafafa;
+}
+
+.shop-by-category-button {
+  background-color: transparent !important;
+  border: none;
+  box-shadow: none;
+  color: #212121;
+  font-weight: bold;
+  padding: 0;
+}
+
+.shop-by-category-button svg {
+  font-size: 1.5rem;
+}
+
+.shop-by-category-button:hover {
+  color: #94a3b8 !important;
+}
+
+.shop-by-category-drawer .ant-drawer-header {
+  padding: 0.5rem;
+}
+
+.drawer-close-button {
+  border: 1px solid #94a3b8;
+  color: #94a3b8;
+}
+
+.drawer-close-button:hover {
+  background-color: #94a3b8 !important;
+  color: #212121 !important;
+  box-shadow: none;
+}
+
+.shop-by-category-drawer .ant-drawer-body {
+  padding: 0.5rem;
+}
+
+.drawer-menu a {
+  color: #212121 !important;
+  font-weight: 500;
+}
+
+.drawer-menu ul {
+  background-color: #fff !important;
+}
+
+.drawer-menu .ant-menu-submenu-title:hover,
+.drawer-menu .ant-menu-item:hover {
+  background-color: #94a3b8 !important;
+  color: #212121 !important;
+}
+
+.shop-by-category-drawer .ant-drawer-body::-webkit-scrollbar {
+  width: 0.5rem !important;
+}
+
+.shop-by-category-drawer .ant-drawer-body::-webkit-scrollbar-track {
+  background: #94a3b825;
+}
+
+.shop-by-category-drawer .ant-drawer-body::-webkit-scrollbar-thumb,
+.shop-by-category-drawer .ant-drawer-body::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.main-header-bottom-links-container a {
+  color: #212121;
+  font-weight: 500;
+}
+
+.main-header-bottom-links-container a:hover {
+  color: #94a3b8;
+}
+
+.main-header-bottom-dropdown-menu {
+  width: 150px !important;
+  display: block;
+}
+
+.ant-dropdown-menu-submenu-popup ul {
+  width: 150px;
+  background-color: #94a3b8 !important;
+  position: relative;
+  left: 0.5rem;
+}
+
+.ant-dropdown-menu-submenu-popup ul a {
+  color: #212121 !important;
+}
+
+.free-international-delivery-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.free-international-delivery-text-container svg {
+  font-size: 1.25rem;
+}
+
+.free-international-delivery-text {
+  font-weight: 500;
+}

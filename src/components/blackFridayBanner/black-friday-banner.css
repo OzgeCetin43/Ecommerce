@@ -1,0 +1,96 @@
+.black-friday-banner-container {
+  margin: 2rem;
+  background-image: url("../../assets/images/black-friday-bg.png");
+  background-size: cover;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.black-friday-banner-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.black-friday-banner-logo {
+  width: 3rem !important;
+}
+
+.black-friday-banner-brand-text {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.black-friday-text {
+  color: #94a3b8;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.black-friday-title {
+  margin: 1rem !important;
+  color: #fff !important;
+  text-transform: uppercase;
+}
+
+.black-friday-banner-title-description {
+  position: relative;
+}
+
+.black-friday-banner-title-description {
+  color: #fff !important;
+  margin: 0 !important;
+  font-size: 1rem !important;
+}
+
+.black-friday-banner-title-description::before,
+.black-friday-banner-title-description::after {
+  position: absolute;
+  content: "";
+  width: 30px !important;
+  height: 1px !important;
+  background-color: #94a3b8 !important;
+  margin: 0.75rem 0.75rem;
+}
+
+.black-friday-banner-title-description::before {
+  margin-left: -3rem;
+}
+
+.black-friday-info-text {
+  width: 70%;
+  text-align: center;
+  color: #fff;
+  line-height: 2;
+}
+
+.black-friday-banner-hero {
+  transform: rotate(30deg);
+  width: 400px !important;
+  margin: 4rem;
+}
+
+.black-friday-banner-text {
+  width: 20%;
+  margin: auto;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.black-friday-shop-button {
+  background-color: #bef264 !important;
+  border: none;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem 0;
+  color: #212121 !important;
+  font-weight: bold;
+}

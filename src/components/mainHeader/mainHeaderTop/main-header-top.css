@@ -1,0 +1,44 @@
+.main-header-top-container {
+  background-color: #94a3b8;
+  padding: 0 1rem;
+}
+
+.main-header-top-description {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.main-header-top-link {
+  color: #212121;
+  font-weight: 500;
+  width: 100%;
+  text-align: right;
+  display: block;
+  padding: 0 1rem;
+  font-size: 0.85rem;
+}
+
+.main-header-top-link:hover {
+  color: #fff;
+}
+
+.language-dropdown {
+  width: 100%;
+  text-align: right;
+}
+
+.language-dropdown div {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding-inline-end: 0 !important;
+}
+
+.language-dropdown div span {
+  font-weight: bold !important;
+  font-size: 0.85rem;
+}
+
+.language-dropdown svg {
+  display: none !important;
+}

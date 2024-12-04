@@ -1,0 +1,63 @@
+.main-header-center-container {
+  padding: 1rem 4rem;
+  border-bottom: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.brand-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand-name-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #212121;
+}
+
+.main-header-center-user-info-container {
+  height: 100%;
+}
+
+.login-register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.login-register-container a {
+  color: #212121;
+  font-weight: 600;
+}
+
+.login-register-container a:hover {
+  color: #94a3b8;
+}
+
+.main-header-center-divider {
+  background-color: #21212115;
+  height: 50%;
+}
+
+.main-header-center-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.compare-icon,
+.wishlist-icon,
+.cart-icon {
+  font-size: 2rem;
+  height: 100%;
+  cursor: pointer;
+}

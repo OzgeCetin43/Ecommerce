@@ -1,0 +1,50 @@
+.free-shipping-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: #111827;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin: 2rem;
+}
+
+.free-shipping-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.free-shipping-left svg {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.free-shipping-text {
+  font-weight: bold;
+  color: #fff;
+}
+
+.free-shipping-center {
+  flex: 3;
+  text-align: center;
+}
+
+.free-delivery-text {
+  font-weight: bold;
+  color: #fff;
+}
+
+.free-shipping-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.free-shipping-info-text {
+  font-weight: bold;
+  background-color: #bef264;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}

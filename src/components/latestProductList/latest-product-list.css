@@ -1,0 +1,136 @@
+.latest-product-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.latest-product-list-slider {
+  height: 88vh;
+}
+
+.latest-product-list-slider .swiper-pagination-bullet-active {
+  background-color: #bef264;
+}
+
+.latest-product-list-card {
+  border-radius: 0.25rem;
+  border: 1px solid #11182710;
+}
+
+.latest-product-list-card .ant-card-body {
+  padding: 0 !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.latest-product-list-off-percentage {
+  position: absolute;
+  top: 0.25rem;
+  left: 0.25rem;
+  z-index: 100;
+  background-color: #bef264;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+
+.latest-product-list-actions-container {
+  flex-direction: column;
+  gap: 0.25rem;
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  z-index: 100;
+  display: none;
+}
+
+.latest-product-list-actions-container button {
+  border-radius: 50%;
+  border: none;
+  color: #212121 !important;
+}
+
+.latest-product-list-actions-container button:hover {
+  background-color: #bef264 !important;
+}
+
+.latest-product-list-card
+  .ant-card-body:hover
+  .latest-product-list-actions-container {
+  display: flex;
+}
+
+.latest-product-list-card .ant-card-body:hover .latest-product-img-1 {
+  display: none;
+}
+
+.latest-product-img-2 {
+  display: none;
+}
+
+.latest-product-list-card .ant-card-body:hover .latest-product-img-2 {
+  display: block;
+}
+
+.latest-product-list-info-container {
+  padding: 1rem;
+  text-align: center;
+}
+
+.latest-product-list-rate {
+  font-size: 0.75rem;
+}
+
+.latest-product-list-rate-text {
+  margin: 0 1rem;
+}
+
+.latest-product-list-price-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.latest-product-list-old-price {
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.latest-product-list-new-price {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #bef264;
+}
+
+.latest-product-list-available-info-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.latest-product-list-available-size-text,
+.latest-product-list-available-color-text {
+  font-size: 0.75rem;
+}
+
+.latest-product-list-add-to-cart-button {
+  width: 100%;
+  background-color: #bef264 !important;
+  font-weight: bold;
+  border: none;
+  color: #212121 !important;
+  display: none;
+}
+
+.latest-product-list-card:hover .latest-product-list-add-to-cart-button {
+  display: flex;
+}

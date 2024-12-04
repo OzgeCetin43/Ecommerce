@@ -1,0 +1,45 @@
+.services-list-container {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.services-list-card {
+  border: 2px solid #111827;
+  border-radius: 0.25rem;
+  width: 30%;
+  margin-top: 1rem;
+}
+
+.services-list-card .ant-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.services-list-card img {
+  width: 60px !important;
+}
+
+.services-name-text {
+  font-weight: bold;
+  font-size: 1.35rem;
+  text-transform: capitalize;
+}
+
+.services-description-text {
+  text-align: center;
+  font-size: 0.75rem;
+}

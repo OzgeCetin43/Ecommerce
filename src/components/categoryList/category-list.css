@@ -1,0 +1,39 @@
+.category-list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.category-list-card {
+  border: 1px solid #11182715;
+}
+
+.category-list-card:hover {
+  border: 1px solid #111827;
+}
+
+.category-list-card .ant-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.category-list-card:hover img {
+  scale: 1.05;
+  transform: rotate(20deg);
+}
+
+.category-list-card img {
+  width: 50% !important;
+  margin: auto;
+  display: block;
+}
+
+.category-list-name {
+  font-weight: bold;
+}

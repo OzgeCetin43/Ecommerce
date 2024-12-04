@@ -1,0 +1,31 @@
+.search-box-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 0.5rem;
+}
+
+.search-box-input {
+  height: 70%;
+  padding: 1rem;
+  border: 1px solid #11182710;
+}
+
+.search-box-input:focus,
+.search-box-input:hover {
+  box-shadow: none;
+  border: 1px solid #11182750;
+}
+
+.search-box-button {
+  background-color: #111827;
+  color: #fff;
+  padding: 0 3rem;
+  height: 70%;
+  border: none;
+}
+
+.search-box-button:hover {
+  background-color: #94a3b8 !important;
+  color: #212121 !important;
+}
