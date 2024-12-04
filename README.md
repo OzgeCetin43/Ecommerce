@@ -1,2 +1,2 @@
 ### Home Page
-![screencapture-localhost-5173-2024-12-04-22_42_40](https://github.com/user-attachments/assets/721682a7-8c1c-49ad-a906-b14945229b6b)
+![screencapture-localhost-5173-2024-12-04-22_47_35](https://github.com/user-attachments/assets/cefa70cd-9d93-4183-9efe-55c2d01bd612)
