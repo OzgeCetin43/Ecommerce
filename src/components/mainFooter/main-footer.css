@@ -48,6 +48,10 @@
   color: #ffffff75;
 }
 
+.footer-col a:hover {
+  color: #bef264;
+}
+
 .footer-newsletter-input {
   border: 1px solid #11182710;
 }

@@ -1,0 +1,18 @@
+.footer-bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0 0;
+  border-radius: 0.25rem;
+}
+
+.footer-copyright-text {
+  color: #fff;
+}
+
+.footer-bottom-container img {
+  width: 30% !important;
+  display: block;
+  justify-self: flex-end;
+  border-radius: 0.25rem;
+}

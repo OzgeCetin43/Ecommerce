@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { Layout, Typography, Row, Col, Input, Button, Checkbox } from "antd";
 import { IoChatbubblesSharp } from "react-icons/io5";
 
+import { FooterBottom } from "./footerBottom";
+
 import "./main-footer.css";
 
 const { Footer, Content } = Layout;
@@ -68,6 +70,7 @@ export const MainFooter = () => {
           </Checkbox>
         </Col>
       </Row>
+      <FooterBottom />
     </Footer>
   );
 };
