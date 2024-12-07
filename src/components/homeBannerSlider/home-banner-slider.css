@@ -14,8 +14,13 @@
   align-items: center;
   justify-content: center;
 }
+
 .home-banner-slider {
   height: 100%;
+}
+
+.home-banner-slider .swiper-pagination-bullet-active {
+  background-color: #bef264;
 }
 
 .home-banner-slider-item {
