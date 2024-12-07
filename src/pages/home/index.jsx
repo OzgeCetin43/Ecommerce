@@ -7,6 +7,7 @@ import {
   CategoryList,
   FeaturedProductList,
   FreeShipping,
+  HomeBannerSlider,
   HomeSlider,
   LatestProductList,
   PopularProductList,
@@ -32,6 +33,7 @@ export const Home = () => {
       <LatestProductList type="fashion" />
       <BlackFridayBanner />
       <FeaturedProductList type="fashion" />
+      <HomeBannerSlider />
       <BlogList />
       <ServicesList />
     </>

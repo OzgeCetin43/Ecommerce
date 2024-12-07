@@ -1,0 +1,74 @@
+.home-banner-slider-container {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem;
+  border: 2px solid #111827;
+  border-radius: 0.25rem;
+  height: 75vh;
+  background-color: #bef26475;
+}
+
+.home-banner-slider-container-left {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-banner-slider {
+  height: 100%;
+}
+
+.home-banner-slider-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-banner-slider-item img {
+  height: 75vh !important;
+  padding: 0rem 2rem;
+}
+
+.home-banner-slider-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-left: 4rem;
+}
+
+.home-banner-slide-title {
+  font-size: 4rem !important;
+  margin: 0 !important;
+}
+
+.home-banner-slide-text {
+  font-weight: 500;
+}
+
+.home-banner-slide-button {
+  background-color: #111827 !important;
+  color: #fff !important;
+  padding: 1.5rem !important;
+  font-weight: bold;
+  width: 200px;
+  border: none !important;
+}
+
+.home-banner-slider-container-right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.home-banner-slider-container-right img {
+  height: 125px !important;
+  width: 100% !important;
+  border: 2px solid #111827;
+  border-radius: 0.25rem;
+  margin-right: 2rem !important;
+  object-fit: cover;
+}

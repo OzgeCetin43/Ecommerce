@@ -11,4 +11,5 @@ export * from "./blackFridayBanner";
 export * from "./featuredProductList";
 export * from "./blogList";
 export * from "./servicesList";
+export * from "./homeBannerSlider";
 export * from "./mainFooter";
