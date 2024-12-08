@@ -16,6 +16,7 @@
   width: 33%;
   border: 1px solid #11182710;
   border-radius: 0.25rem;
+  height: 500px;
 }
 
 .blog-list-card .ant-card-body {
@@ -31,7 +32,7 @@
 }
 
 .blog-list-image-container img {
-  height: 270px !important;
+  height: 299px !important;
   object-fit: cover;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
