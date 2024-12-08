@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Breadcrumb } from "antd";
 
 import "./product-detail.css";
