@@ -1,6 +1,6 @@
 import { Button, Image, Layout, Typography, Row, Col } from "antd";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Pagination } from "swiper/modules";
+import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 
 import { HomeBanners } from "../../assets/data/home-banners";
 
@@ -28,12 +28,16 @@ export const HomeBannerSlider = () => {
         <Swiper
           slidesPerView={1}
           spaceBetween={30}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           loop={true}
           pagination={{
             clickable: true,
           }}
           freeMode={true}
-          modules={[FreeMode, Pagination]}
+          modules={[Autoplay, FreeMode, Pagination]}
           className="home-banner-slider"
         >
           {HomeBanners.map((banner) => (

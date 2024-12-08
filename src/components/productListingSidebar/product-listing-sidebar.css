@@ -1,0 +1,38 @@
+.product-listing-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  border: 2px solid #111827;
+  padding: 1rem;
+  margin: 0 2rem;
+  border-radius: 0.25rem;
+}
+
+.product-listing-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: block;
+  text-decoration: underline;
+}
+
+.sidebar-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.sidebar-checkbox {
+  font-weight: 600;
+}
+
+.sidebar-price-range-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.sidebar-price-range-text span {
+  font-size: 0.75rem;
+}

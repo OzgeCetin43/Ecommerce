@@ -1,0 +1,15 @@
+.product-listing-breadcrumb {
+  margin: 2rem;
+}
+
+.product-listing-inner-container {
+  display: flex;
+}
+
+.product-listing-container-left {
+  flex: 1;
+}
+
+.product-listing-container-right {
+  flex: 3;
+}
