@@ -1,0 +1,143 @@
+.product-details-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  border: 1px solid #11182710;
+  border-radius: 0.25rem;
+  margin: 2rem;
+}
+
+.product-detail-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 65%;
+  margin-right: 2rem;
+  margin-top: 3rem;
+}
+
+.product-detail-rate {
+  font-size: 0.75rem;
+}
+
+.product-detail-review-text {
+  color: #94a3b8;
+}
+
+.product-detail-divider {
+  margin: 0;
+}
+
+.product-detail-inner-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-detail-title {
+  margin: 0.5rem 0 !important;
+}
+
+.product-detail-prices-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.product-detail-old-price-text {
+  font-weight: bold;
+  color: #94a3b8;
+  text-decoration: line-through;
+}
+
+.product-detail-new-price-text {
+  font-size: 2rem;
+  color: #bef264;
+  font-weight: bold;
+}
+
+.product-detail-info-text span,
+.product-detail-hurry-text span {
+  color: #bef264;
+  font-weight: bold;
+}
+
+.product-detail-hurry-text {
+  display: block;
+}
+
+.product-detail-progress {
+  width: 50%;
+}
+
+.product-detail-size-container,
+.product-detail-color-container,
+.product-detail-size-items-container,
+.product-detail-color-items-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.product-detail-size-text,
+.product-detail-color-text {
+  font-weight: bold;
+}
+
+.product-detail-size-button,
+.product-detail-color-button {
+  border: 1px solid #111827 !important;
+  color: #212121 !important;
+  border-radius: 0.25rem;
+  font-weight: bold;
+}
+
+.product-detail-active-size,
+.product-detail-active-color {
+  background-color: #bef264;
+}
+
+.product-detail-add-to-cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-detail-free-shipping-text {
+  font-weight: bold;
+  color: #94a3b8;
+}
+
+.product-detail-add-to-cart-detail-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.product-detail-quantity-input {
+  width: 15%;
+}
+
+.product-detail-quantity-input:focus,
+.product-detail-quantity-input:hover {
+  box-shadow: none;
+  border: 1px solid #11182750;
+}
+
+.product-detail-add-to-cart-button {
+  border: none;
+  color: #fff !important;
+  background-color: #111827 !important;
+}
+
+.product-detail-action-button {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  padding: 1rem;
+  color: #fff !important;
+  background-color: #111827 !important;
+}

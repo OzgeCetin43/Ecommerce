@@ -1,0 +1,35 @@
+.special-offer-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.special-offer-card {
+  border: 1px solid #11182710;
+}
+
+.special-offer-card .ant-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem !important;
+  width: 75px;
+  height: 75px;
+}
+
+.special-offer-text {
+  font-weight: bold;
+}
+
+.special-offer-description-text {
+  color: #94a3b8;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.special-offer-divider-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

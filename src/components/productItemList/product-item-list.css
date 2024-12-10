@@ -160,6 +160,10 @@
   color: #94a3b8;
 }
 
+.product-item-name-title:hover {
+  color: #bef264 !important;
+}
+
 .product-item-list-rate {
   font-size: 0.75rem;
 }

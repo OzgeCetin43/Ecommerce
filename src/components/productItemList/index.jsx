@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   Layout,
   Typography,
@@ -28,6 +29,7 @@ const { Title, Text } = Typography;
 
 export const ProductItemList = () => {
   const [gridType, setGridType] = useState("four");
+  const navigate = useNavigate();
 
   return (
     <>
@@ -96,7 +98,15 @@ export const ProductItemList = () => {
                 <Text className="product-item-list-brand-text">
                   {item.brand}
                 </Text>
-                <Title level={5} className="product-item-name-title">
+                <Title
+                  level={5}
+                  className="product-item-name-title"
+                  onClick={() =>
+                    navigate(`/product/${index}`, {
+                      state: { name: item.name },
+                    })
+                  }
+                >
                   {item.name}
                 </Title>
                 <Rate

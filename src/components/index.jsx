@@ -14,4 +14,7 @@ export * from "./servicesList";
 export * from "./homeBannerSlider";
 export * from "./productListingSidebar";
 export * from "./productItemList";
+export * from "./productDetails";
+export * from "./zoom";
+export * from "./specialOffer";
 export * from "./mainFooter";
