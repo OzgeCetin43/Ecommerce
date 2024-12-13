@@ -1,7 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
 import { Breadcrumb } from "antd";
 
-import { ProductDetails, ServicesList, CategoryList } from "../../components";
+import {
+  ProductDetails,
+  ServicesList,
+  CategoryList,
+  RelatedProductList,
+} from "../../components";
 
 import { Products } from "../../assets/data/products";
 
@@ -32,6 +37,7 @@ export const ProductDetail = () => {
     <>
       <Breadcrumb items={items} className="product-detail-breadcrumb" />
       <ProductDetails product={product} category={category} />
+      <RelatedProductList type={category?.toLowerCase()} />
       <CategoryList />
       <ServicesList />
     </>

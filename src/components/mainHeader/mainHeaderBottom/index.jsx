@@ -25,41 +25,41 @@ const { Text } = Typography;
 
 const items = [
   {
-    label: <Link to="/men">Men</Link>,
+    label: <Link to="/productListing">Men</Link>,
     key: "men",
     children: [
       {
-        label: <Link to="/">Tshirt</Link>,
+        label: <Link to="/productListing">Tshirt</Link>,
         key: "men-tshirt",
       },
       {
-        label: <Link to="/">Jeans</Link>,
+        label: <Link to="/productListing">Jeans</Link>,
         key: "men-jeans",
       },
       {
-        label: <Link to="/">Footwear</Link>,
+        label: <Link to="/productListing">Footwear</Link>,
         key: "men-footwear",
       },
       {
-        label: <Link to="/">Watch</Link>,
+        label: <Link to="/productListing">Watch</Link>,
         key: "men-watch",
       },
     ],
   },
   {
-    label: <Link to="/women">Women</Link>,
+    label: <Link to="/productListing">Women</Link>,
     key: "women",
   },
   {
-    label: <Link to="/kids">Kids</Link>,
+    label: <Link to="/productListing">Kids</Link>,
     key: "kids",
   },
   {
-    label: <Link to="/girls">Girls</Link>,
+    label: <Link to="/productListing">Girls</Link>,
     key: "girls",
   },
   {
-    label: <Link to="/boys">Boys</Link>,
+    label: <Link to="/productListing">Boys</Link>,
     key: "boys",
   },
 ];
@@ -88,29 +88,29 @@ const MainHeaderBottom = () => {
                 arrow
                 className="main-header-bottom-dropdown-menu"
               >
-                <Link to="/fashion">Fashion</Link>
+                <Link to="/productListing">Fashion</Link>
               </Dropdown>
             </Col>
             <Col span={4}>
-              <Link to="/electronics">Electronics</Link>
+              <Link to="/productListing">Electronics</Link>
             </Col>
             <Col span={2}>
-              <Link to="/bags">Bags</Link>
+              <Link to="/productListing">Bags</Link>
             </Col>
             <Col span={3}>
-              <Link to="/footwear">Footwear</Link>
+              <Link to="/productListing">Footwear</Link>
             </Col>
             <Col span={3}>
-              <Link to="/groceries">Groceries</Link>
+              <Link to="/productListing">Groceries</Link>
             </Col>
             <Col span={3}>
-              <Link to="/beauty">Beauty</Link>
+              <Link to="/productListing">Beauty</Link>
             </Col>
             <Col span={3}>
-              <Link to="/wellness">Wellness</Link>
+              <Link to="/productListing">Wellness</Link>
             </Col>
             <Col span={3}>
-              <Link to="/jewellery">Jewellery</Link>
+              <Link to="/productListing">Jewellery</Link>
             </Col>
           </Row>
         </Col>
@@ -137,54 +137,57 @@ const MainHeaderBottom = () => {
         className="shop-by-category-drawer"
       >
         <Menu mode="inline" className="drawer-menu" expandIcon={<FaPlus />}>
-          <SubMenu key="fashion" title={<Link to="/fashion">Fashion</Link>}>
-            <SubMenu key="men" title={<Link to="/men">Men</Link>}>
+          <SubMenu
+            key="fashion"
+            title={<Link to="/productListing">Fashion</Link>}
+          >
+            <SubMenu key="men" title={<Link to="/productListing">Men</Link>}>
               <Menu.Item key="tshirt">
-                <Link to="/">Tshirt</Link>
+                <Link to="/productListing">Tshirt</Link>
               </Menu.Item>
               <Menu.Item key="jeans">
-                <Link to="/">Jeans</Link>
+                <Link to="/productListing">Jeans</Link>
               </Menu.Item>
               <Menu.Item key="footwear">
-                <Link to="/">Footwear</Link>
+                <Link to="/productListing">Footwear</Link>
               </Menu.Item>
               <Menu.Item key="watch">
-                <Link to="/">Watch</Link>
+                <Link to="/productListing">Watch</Link>
               </Menu.Item>
             </SubMenu>
             <Menu.Item key="women">
-              <Link to="/women">Women</Link>
+              <Link to="/productListing">Women</Link>
             </Menu.Item>
             <Menu.Item key="kids">
-              <Link to="/kids">Kids</Link>
+              <Link to="/productListing">Kids</Link>
             </Menu.Item>
             <Menu.Item key="girls">
-              <Link to="/girls">Girls</Link>
+              <Link to="/productListing">Girls</Link>
             </Menu.Item>
             <Menu.Item key="boys">
-              <Link to="/boys">Boys</Link>
+              <Link to="/productListing">Boys</Link>
             </Menu.Item>
           </SubMenu>
           <Menu.Item key="electronics">
-            <Link to="/electronics">Electronics</Link>
+            <Link to="/productListing">Electronics</Link>
           </Menu.Item>
           <Menu.Item key="bags">
-            <Link to="/bags">Bags</Link>
+            <Link to="/productListing">Bags</Link>
           </Menu.Item>
           <Menu.Item key="footwear">
-            <Link to="/footwear">Footwear</Link>
+            <Link to="/productListing">Footwear</Link>
           </Menu.Item>
           <Menu.Item key="groceries">
-            <Link to="/groceries">Groceries</Link>
+            <Link to="/productListing">Groceries</Link>
           </Menu.Item>
           <Menu.Item key="beauty">
-            <Link to="/beauty">Beauty</Link>
+            <Link to="/productListing">Beauty</Link>
           </Menu.Item>
           <Menu.Item key="wellness">
-            <Link to="/wellness">Wellness</Link>
+            <Link to="/productListing">Wellness</Link>
           </Menu.Item>
           <Menu.Item key="jewellery">
-            <Link to="/jewellery">Jewellery</Link>
+            <Link to="/productListing">Jewellery</Link>
           </Menu.Item>
         </Menu>
       </Drawer>
