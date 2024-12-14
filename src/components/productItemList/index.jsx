@@ -10,7 +10,6 @@ import {
   Select,
   Pagination,
 } from "antd";
-import { MdOutlineZoomOutMap } from "react-icons/md";
 import { IoMdGitCompare } from "react-icons/io";
 import { FaRegHeart } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
@@ -78,7 +77,6 @@ export const ProductItemList = () => {
                 {categoryItems.category}
               </Text>
               <Content className="product-item-list-actions-container">
-                <Button icon={<MdOutlineZoomOutMap />} />
                 <Button icon={<IoMdGitCompare />} />
                 <Button icon={<FaRegHeart />} />
               </Content>

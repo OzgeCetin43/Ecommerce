@@ -12,6 +12,8 @@ import product2 from "../../assets/images/popular-product-image-2.jpg";
 
 import { PopularProducts } from "../../assets/data/popular-products";
 
+import { ProductDetailModal } from "../productDetailModal";
+
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
@@ -58,6 +60,8 @@ const items = [
 
 export const PopularProductList = () => {
   const [activeTab, setActiveTab] = useState("fashion");
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   const handleTabChange = (key) => {
     setActiveTab(key);
@@ -103,7 +107,13 @@ export const PopularProductList = () => {
                   {item.discount}
                 </Text>
                 <Content className="popular-product-list-actions-container">
-                  <Button icon={<MdOutlineZoomOutMap />} />
+                  <Button
+                    icon={<MdOutlineZoomOutMap />}
+                    onClick={() => {
+                      setIsModalOpen(true);
+                      setSelectedProduct(item);
+                    }}
+                  />
                   <Button icon={<IoMdGitCompare />} />
                   <Button icon={<FaRegHeart />} />
                 </Content>
@@ -162,6 +172,11 @@ export const PopularProductList = () => {
           ))}
         </Swiper>
       </Content>
+      <ProductDetailModal
+        product={selectedProduct}
+        isModalOpen={isModalOpen}
+        setIsModalOpen={setIsModalOpen}
+      />
     </Content>
   );
 };

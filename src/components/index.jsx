@@ -21,4 +21,5 @@ export * from "./relatedProductList";
 export * from "./productDetailDescriptionTab";
 export * from "./productDetailAdditionalInformationTab";
 export * from "./productDetailReviewsTab";
+export * from "./productDetailModal";
 export * from "./mainFooter";

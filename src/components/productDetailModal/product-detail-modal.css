@@ -1,0 +1,37 @@
+.product-detail-modal .ant-modal-body {
+  display: flex;
+}
+
+.product-detail-modal-left-container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-detail-modal-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-detail-modal-price-container {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.product-detail-modal-old-price-text {
+  color: #94a3b8;
+  font-weight: bold;
+  text-decoration: line-through;
+  font-size: 1.25rem;
+}
+
+.product-detail-modal-new-price-text {
+  font-size: 2rem;
+  color: #bef264;
+  font-weight: bold;
+}

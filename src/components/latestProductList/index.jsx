@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Layout, Typography, Card, Image, Rate, Button } from "antd";
 import { MdOutlineZoomOutMap } from "react-icons/md";
 import { IoMdGitCompare } from "react-icons/io";
@@ -11,6 +12,8 @@ import product2 from "../../assets/images/popular-product-image-2.jpg";
 
 import { PopularProducts } from "../../assets/data/popular-products";
 
+import { ProductDetailModal } from "../productDetailModal";
+
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
@@ -21,6 +24,9 @@ const { Content } = Layout;
 const { Title, Text } = Typography;
 
 export const LatestProductList = ({ type }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
   const productList = PopularProducts[type];
 
   return (
@@ -44,7 +50,13 @@ export const LatestProductList = ({ type }) => {
                   {item.discount}
                 </Text>
                 <Content className="latest-product-list-actions-container">
-                  <Button icon={<MdOutlineZoomOutMap />} />
+                  <Button
+                    icon={<MdOutlineZoomOutMap />}
+                    onClick={() => {
+                      setIsModalOpen(true);
+                      setSelectedProduct(item);
+                    }}
+                  />
                   <Button icon={<IoMdGitCompare />} />
                   <Button icon={<FaRegHeart />} />
                 </Content>
@@ -103,6 +115,11 @@ export const LatestProductList = ({ type }) => {
           ))}
         </Swiper>
       </Content>
+      <ProductDetailModal
+        product={selectedProduct}
+        isModalOpen={isModalOpen}
+        setIsModalOpen={setIsModalOpen}
+      />
     </Content>
   );
 };
