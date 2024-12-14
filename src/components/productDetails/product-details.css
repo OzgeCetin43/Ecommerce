@@ -141,3 +141,19 @@
   color: #fff !important;
   background-color: #111827 !important;
 }
+
+.product-detail-tabs {
+  margin: 2rem;
+}
+
+.product-detail-tabs div {
+  color: #212121 !important;
+}
+
+.product-detail-tabs .ant-tabs-nav::before {
+  border-bottom: none;
+}
+
+.product-detail-tabs .ant-tabs-ink-bar {
+  background-color: #212121 !important;
+}

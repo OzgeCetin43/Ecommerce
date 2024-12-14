@@ -1,0 +1,12 @@
+.product-detail-description-tab-text {
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+.product-detail-description-list-item {
+  padding: 1rem !important;
+}
+
+.product-detail-description-list-item:nth-child(even) {
+  background-color: #f1f1f1;
+}

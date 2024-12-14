@@ -18,4 +18,7 @@ export * from "./productDetails";
 export * from "./zoom";
 export * from "./specialOffer";
 export * from "./relatedProductList";
+export * from "./productDetailDescriptionTab";
+export * from "./productDetailAdditionalInformationTab";
+export * from "./productDetailReviewsTab";
 export * from "./mainFooter";

@@ -1,0 +1,21 @@
+.product-detail-reviews-tab-list .ant-pagination-item-active {
+  background-color: #bef264;
+  border: none !important;
+}
+
+.product-detail-reviews-tab-list .ant-pagination-item-active a {
+  color: #212121 !important;
+}
+
+.product-detail-reviews-form {
+  padding: 2rem;
+  border: 1px solid #11182710;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+}
+
+.product-detail-review-tab-button {
+  background-color: #111827 !important;
+  color: #fff !important;
+  border: none;
+}

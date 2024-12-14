@@ -1,0 +1,7 @@
+.product-detail-additional-information-list-item {
+  padding: 1rem !important;
+}
+
+.product-detail-additional-information-list-item:nth-child(even) {
+  background-color: #f1f1f1;
+}
