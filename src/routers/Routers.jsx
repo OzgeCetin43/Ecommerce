@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 
-import { Home, ProductDetail, ProductListing } from "../pages";
+import { Home, Login, ProductDetail, ProductListing } from "../pages";
 import { MainLayout } from "../layouts";
 
 const Routers = () => {
@@ -11,6 +11,7 @@ const Routers = () => {
         <Route path="/productListing" element={<ProductListing />} />
         <Route path="/product/:id" element={<ProductDetail />} />
       </Route>
+      <Route path="/login" element={<Login />} />
     </Routes>
   );
 };
