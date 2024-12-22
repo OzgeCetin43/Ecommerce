@@ -1,0 +1,150 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem;
+}
+
+.cart-title {
+  margin-bottom: 0 !important;
+}
+
+.cart-description-text b {
+  color: #bef264;
+  font-size: 1.25rem;
+}
+
+.cart-inner-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cart-inner-container-left {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.25rem;
+  position: relative;
+  border-radius: 0.25rem;
+}
+
+.cart-card .ant-card-body {
+  padding: 0.25rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-image {
+  width: 100px !important;
+  border: 2px solid #11182710;
+  border-radius: 0.25rem;
+}
+
+.cart-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.25rem;
+  margin-left: 1rem;
+}
+
+.cart-brand-text {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  font-weight: bold;
+}
+
+.cart-name-text {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.cart-rate {
+  font-size: 0.95rem;
+}
+
+.cart-price-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cart-price-text {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #bef264;
+}
+
+.cart-off-text {
+  color: #94a3b8;
+  font-weight: bold;
+  background-color: #94a3b810;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.cart-delete-button {
+  background-color: #111827 !important;
+  color: #fff !important;
+  border: none !important;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 0.75rem;
+  width: 25px !important;
+  height: 25px;
+}
+
+.cart-inner-container-right {
+  flex: 1;
+}
+
+.cart-totals-card .ant-card-body {
+  padding: 0.75rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cart-totals-price-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.cart-totals-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.cart-totals-text-container:not(:last-child) {
+  border-bottom: 1px solid #11182710;
+}
+
+.cart-totals-text {
+  font-weight: bold;
+}
+
+.cart-totals-amount-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.cart-totals-total-text {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #bef264;
+}
+
+.cart-totals-checkout-button {
+  background-color: #111827 !important;
+  color: #fff !important;
+  border: none !important;
+}
