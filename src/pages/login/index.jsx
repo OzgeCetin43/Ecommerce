@@ -86,7 +86,7 @@ export const Login = () => {
               <Form.Item name="remember" valuePropName="checked" noStyle>
                 <Checkbox>Remember me</Checkbox>
               </Form.Item>
-              <Link to="/" className="login-forgot-password-link">
+              <Link to="/forgotPassword" className="login-forgot-password-link">
                 Forgot Password?
               </Link>
             </Flex>
