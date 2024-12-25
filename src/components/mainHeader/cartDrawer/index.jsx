@@ -46,7 +46,7 @@ export const CartDrawer = ({ isOpen, setIsOpen }) => {
               <b>${cart.price}</b> x {cart.quantity}
             </Text>
           </Content>
-          <Button icon={<FaTrash />} className="cart-delete-button" />
+          <Button icon={<FaTrash />} className="cart-drawer-delete-button" />
         </Content>
       ))}
       <Content className="cart-total-price-container">
