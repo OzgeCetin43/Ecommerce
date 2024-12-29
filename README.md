@@ -16,3 +16,5 @@
 ![screencapture-localhost-5173-register-2024-12-15-17_17_24](https://github.com/user-attachments/assets/361b8e20-6adf-4a7a-a1e1-c6b50fe9eb7d)
 ### Forgot Password Page
 ![screencapture-localhost-5173-forgotPassword-2024-12-25-22_02_43](https://github.com/user-attachments/assets/e4626a7e-8e30-42a6-bc2d-a33bfdd23c41)
+### Checkout Page
+![screencapture-localhost-5173-checkout-2024-12-29-21_55_21](https://github.com/user-attachments/assets/d55b944c-dc5d-4a61-8740-fc722b6fe37b)
