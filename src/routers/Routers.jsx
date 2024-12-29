@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 import {
   Cart,
+  Checkout,
   ForgotPassword,
   Home,
   Login,
@@ -19,6 +20,7 @@ const Routers = () => {
         <Route path="/productListing" element={<ProductListing />} />
         <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Route>
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
